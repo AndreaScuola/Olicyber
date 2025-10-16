@@ -1,0 +1,4 @@
+import requests
+url = 'http://web-01.challs.olicyber.it'
+response = requests.get(url)
+print(response.text) #Stampa il body della response
